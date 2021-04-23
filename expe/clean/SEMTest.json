@@ -1,0 +1,2974 @@
+{
+    "id": "gaZskX9Hq",
+    "name": "FinalCleanAutoGen",
+    "baseURL": "https://www.cdiscount.com",
+    "webSite": {
+        "id": "CPSJ9vFAJ",
+        "name": "AutoGenFromFrameworkCleanV2"
+    },
+    "createdAt": "2021-03-05T13:32:52.353Z",
+    "updatedAt": "2021-03-05T13:32:52.353Z",
+    "explorationList": [
+        {
+            "testerName": "TestAifex_CheckWorkingHeaderMenu(\"LinksUserConnected\")",
+            "startDate": "2021-03-10T07:40:26.564Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T08:58:55.036Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePageBasketPro_click",
+                    "date": "2021-03-08T08:59:03.266Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T08:59:15.299Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_headerBloc_click",
+                    "date": "2021-03-08T08:59:15.311Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_cdavAddButton_click",
+                    "date": "2021-03-08T09:00:20.644Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:01:05.486Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_CheckWorkingHeaderMenu(\"LinksUserNotConnected\")",
+            "startDate": "2021-03-10T07:40:26.564Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:01:24.076Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePageBasketPro_click",
+                    "date": "2021-03-08T09:01:33.156Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T09:01:50.822Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_headerBloc_click",
+                    "date": "2021-03-08T09:01:50.832Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:03:14.913Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Connected_PorteAvionHeader",
+            "startDate": "2021-03-10T07:40:26.564Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:04:18.033Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_myAccountDisplay_click",
+                    "date": "2021-03-08T09:05:09.327Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_cdavAddButton_click",
+                    "date": "2021-03-08T09:05:41.088Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:06:43.872Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_AddProduct_PagesNavigating",
+            "startDate": "2021-03-10T07:40:26.564Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:03:54.879Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "mario",
+                    "date": "2021-03-08T09:04:05.346Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:04:05.348Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_listTopProductBlocks_click",
+                    "value": "0",
+                    "date": "2021-03-08T09:04:48.613Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_pagination_Next_click",
+                    "date": "2021-03-08T09:05:14.603Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_blockProducts_click",
+                    "date": "2021-03-08T09:05:25.878Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:07:00.749Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_ShowCase_AllStructureShowcase",
+            "startDate": "2021-03-10T07:40:26.564Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:05:50.323Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_relativeSubLinks_click",
+                    "value": "1",
+                    "date": "2021-03-08T09:06:09.296Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:07:01.403Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_ShowCase_LeftMenu",
+            "startDate": "2021-03-10T07:40:26.564Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:06:39.058Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_relativeSubLinks_click",
+                    "value": "11",
+                    "date": "2021-03-08T09:06:54.411Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:08:10.478Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_AddProductToBasket_AcceptInsuranceAndWarranty",
+            "startDate": "2021-03-10T07:40:26.564Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:07:10.568Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductSheetPage_goToBasketButton_click",
+                    "date": "2021-03-08T09:08:10.641Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:08:45.713Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_ShowCase_Header",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:08:26.146Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_relativeSubLinks_click",
+                    "value": "6",
+                    "date": "2021-03-08T09:08:39.220Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:09:24.116Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckAlternativeLinks",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:08:42.812Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "ipad",
+                    "date": "2021-03-08T09:09:02.785Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:09:02.791Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_alternativesLinksSearch_click",
+                    "value": "0",
+                    "date": "2021-03-08T09:10:22.294Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:10:58.392Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckCategoryLevelsComposition",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:11:19.486Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Hello Kitty",
+                    "date": "2021-03-08T09:11:30.851Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:11:30.861Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_closeUniquementPourVous_click",
+                    "date": "2021-03-08T09:11:39.946Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:12:01.270Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_BackOnAddPage_ProductSheet(CDSM30)",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:09:39.185Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductSheetPage_goToBasketButton_click",
+                    "date": "2021-03-08T09:11:58.741Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:12:18.599Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_AddProductToBasket_ListSearch(\"CDS\")",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:10:15.216Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "clavier",
+                    "date": "2021-03-08T09:10:28.101Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:10:28.113Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_blockProducts_click",
+                    "date": "2021-03-08T09:11:57.007Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "AddToBasketConfirmationPage_basketLink_click",
+                    "date": "2021-03-08T09:12:09.405Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:13:31.064Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckGabaritPage",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:12:21.858Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "hello kitty",
+                    "date": "2021-03-08T09:13:14.450Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:13:14.471Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:14:38.464Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_FilterLP_PAP",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList":[
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-04-19T14:16:11.165Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_menuNavSubDepartments_click",
+                    "value": "0",
+                    "date": "2021-04-19T14:16:22.587Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetSeeMoreLink_click",
+                    "date": "2021-04-19T14:17:05.171Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetValuesList_click",
+                    "value": "19",
+                    "date": "2021-04-19T14:17:10.885Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetCheckboxList_click",
+                    "value": "19",
+                    "date": "2021-04-19T14:17:10.909Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetCheckboxList_change",
+                    "value": "Taille/l",
+                    "date": "2021-04-19T14:17:11.081Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-04-19T14:17:26.576Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_AddProductToBasket_ListSearch(\"MKP\")",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:13:53.574Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "écran",
+                    "date": "2021-03-08T09:14:05.364Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:14:05.369Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_closeUniquementPourVous_click",
+                    "date": "2021-03-08T09:14:14.995Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_leftvendeurMkp_click",
+                    "date": "2021-03-08T09:14:20.976Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_leftvendeurMkp_change",
+                    "value": "Vendeur/[1,*}",
+                    "date": "2021-03-08T09:14:21.015Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_blockProducts_click",
+                    "date": "2021-03-08T09:14:39.766Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "AddToBasketConfirmationPage_basketLink_click",
+                    "date": "2021-03-08T09:14:48.963Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:15:27.077Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckListingSort",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:16:08.241Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T09:16:19.076Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:16:19.094Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:16:31.793Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_FilterLR",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:16:24.382Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "TV LED",
+                    "date": "2021-03-08T09:16:58.609Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:16:58.677Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:17:57.706Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_BackOnAddPage_SearchList(CDSM30)",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:16:30.506Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "TN135M",
+                    "date": "2021-03-08T09:17:22.431Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:17:22.465Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:18:24.405Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_AddProductToBasket_ProductSheet(CDSM30)",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:16:23.867Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductSheetPage_goToBasketButton_click",
+                    "date": "2021-03-08T09:17:58.402Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:18:26.342Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckProductsListBeforeAfterChoosingCategory",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:17:00.474Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Hello Kitty",
+                    "date": "2021-03-08T09:17:10.146Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:17:10.151Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:19:26.478Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckSort",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:20:12.335Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T09:20:39.296Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:20:39.564Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:21:35.524Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_LP_CheckSecondHandOffers",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:20:23.836Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "9782020225939",
+                    "date": "2021-03-08T09:21:16.022Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:21:16.024Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:21:41.134Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_BackOnAddPage_SearchList(MKP)",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:20:11.971Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "DES3663065141872",
+                    "date": "2021-03-08T09:20:56.201Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:20:56.233Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:22:10.487Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckStructure",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:22:23.988Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "ipad",
+                    "date": "2021-03-08T09:23:04.713Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:23:04.761Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:24:05.406Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_ShippingInfo_CheckStructure(CDSP30)",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:23:31.054Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductSheetPage_shippingInfoLink_click",
+                    "date": "2021-03-08T09:24:31.393Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:24:47.481Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_ShippingInfo_CheckStructure(CDSM30)",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:25:16.562Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductSheetPage_productDeliveryZone_click",
+                    "date": "2021-03-08T09:26:08.225Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:26:27.141Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_PL_CheckProduct_BetweenListAndSheet",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:27:18.010Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_showcaseLinks_click",
+                    "value": "16",
+                    "date": "2021-03-08T09:27:30.173Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:28:51.445Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_SearchProduct",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:30:23.280Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "mario",
+                    "date": "2021-03-08T09:30:33.437Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:30:33.440Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:30:56.889Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_PL_structure_check",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:31:35.371Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_showcaseLinks_click",
+                    "value": "16",
+                    "date": "2021-03-08T09:32:21.299Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:32:49.791Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_WrongSearch",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:32:36.427Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "kjhdgkjdg",
+                    "date": "2021-03-08T09:32:46.328Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:32:46.331Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:33:07.093Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckPageAndFilters()",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:33:26.106Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T09:33:36.076Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:33:36.080Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:34:15.556Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_PL_CheckProductBlock(\"STD\")",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:35:35.212Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_showcaseLinks_click",
+                    "value": "16",
+                    "date": "2021-03-08T09:35:45.955Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:36:04.568Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_CheckWorkingHeaderMenu(\"LinksUserConnected\")",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:38:24.313Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePageBasketPro_click",
+                    "date": "2021-03-08T09:38:30.701Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T09:38:43.318Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_headerBloc_click",
+                    "date": "2021-03-08T09:38:43.325Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_cdavAddButton_click",
+                    "date": "2021-03-08T09:40:13.020Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:40:43.777Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_AddProductToBasket_ListSearch(\"CDS\")",
+            "startDate": "2021-03-10T07:40:26.565Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:43:47.118Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "clavier",
+                    "date": "2021-03-08T09:44:01.144Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:44:01.148Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_closeUniquementPourVous_click",
+                    "date": "2021-03-08T09:44:15.158Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_blockProducts_click",
+                    "date": "2021-03-08T09:44:35.419Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "AddToBasketConfirmationPage_basketLink_click",
+                    "date": "2021-03-08T09:45:24.574Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:46:17.471Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckCategoryLevelsComposition",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:45:17.578Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Hello Kitty",
+                    "date": "2021-03-08T09:45:43.075Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:45:43.088Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:46:51.891Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_BackOnAddPage_ProductSheet(CDSM30)",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:45:03.272Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductSheetPage_goToBasketButton_click",
+                    "date": "2021-03-08T09:47:07.578Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:47:37.802Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_FilterLP",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:45:34.401Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_showcaseLinks_click",
+                    "value": "10",
+                    "date": "2021-03-08T09:46:23.302Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:47:44.736Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_AddProductToBasket_ListSearch(\"MKP\")",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:46:35.879Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "écran",
+                    "date": "2021-03-08T09:46:56.501Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:46:56.507Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_leftvendeurMkp_click",
+                    "date": "2021-03-08T09:48:07.605Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_leftvendeurMkp_change",
+                    "value": "Vendeur/[1,*}",
+                    "date": "2021-03-08T09:48:07.671Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_blockProducts_click",
+                    "date": "2021-03-08T09:48:30.048Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:49:01.172Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckGabaritPage",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:47:15.008Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "hello kitty",
+                    "date": "2021-03-08T09:47:28.980Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:47:28.983Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_blockProducts_click",
+                    "date": "2021-03-08T09:48:47.018Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:49:51.584Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_FilterLP_PAP",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:49:06.032Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_closeUniquementPourVous_click",
+                    "date": "2021-03-08T09:49:23.994Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:51:29.879Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckListingSort",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:50:11.463Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T09:50:43.100Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:50:43.102Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:52:08.177Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_AddProductToBasket_ProductSheet(CDSM30)",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:50:24.988Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductSheetPage_goToBasketButton_click",
+                    "date": "2021-03-08T09:51:06.575Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "AddToBasketConfirmationPage_basketLink_click",
+                    "date": "2021-03-08T09:51:27.298Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:52:11.736Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_BackOnAddPage_SearchList(CDSM30)",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:51:58.687Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "920002515",
+                    "date": "2021-03-08T09:52:19.512Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:52:19.513Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_listTopProductBlocks_click",
+                    "value": "0",
+                    "date": "2021-03-08T09:52:55.274Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:53:37.985Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_LP_CheckSecondHandOffers",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:53:21.318Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "BIG3499550342161",
+                    "date": "2021-03-08T09:54:03.872Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:54:03.891Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:54:51.089Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_BackOnAddPage_SearchList(MKP)",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:54:01.276Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "BIG3571211404484",
+                    "date": "2021-03-08T09:54:16.434Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:54:16.438Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_listTopProductBlocks_click",
+                    "value": "0",
+                    "date": "2021-03-08T09:54:44.078Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:55:00.775Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_FilterLR",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:52:50.683Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "TV LED",
+                    "date": "2021-03-08T09:53:03.687Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:53:03.702Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:55:32.206Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckProductsListBeforeAfterChoosingCategory",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:53:33.256Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Hello Kitty",
+                    "date": "2021-03-08T09:53:45.068Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:53:45.070Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:56:38.767Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckSort",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:56:59.763Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T09:57:14.248Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T09:57:14.255Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T09:57:36.427Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_ShippingInfo_CheckStructure(CDSM30)",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:58:55.464Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductSheetPage_productDeliveryZone_click",
+                    "date": "2021-03-08T09:59:53.110Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:00:02.488Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Showcase_CheckGeneralDisplay",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:00:25.055Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_relativeSubLinks_click",
+                    "value": "11",
+                    "date": "2021-03-08T10:00:49.737Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:01:22.713Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Sellershop_AddProductToBasket",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:55:19.399Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "MpvPage_cdavAddButton_click",
+                    "date": "2021-03-08T09:58:05.009Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "MpvPage_cdavAddButton_click",
+                    "date": "2021-03-08T10:00:16.956Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:01:36.861Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_PL_structure_check",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:01:42.644Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_showcaseLinks_click",
+                    "value": "16",
+                    "date": "2021-03-08T10:02:01.298Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:02:17.021Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_SearchBarInPages",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T09:58:52.748Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_relativeSubLinks_click",
+                    "value": "11",
+                    "date": "2021-03-08T09:59:47.978Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:02:47.021Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_SearchProduct",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:03:08.677Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "mario",
+                    "date": "2021-03-08T10:03:17.755Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T10:03:17.758Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:04:04.706Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_SearchProduct_NavigationAndPagination",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:04:37.760Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "mario",
+                    "date": "2021-03-08T10:04:45.027Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T10:04:45.045Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_pagination_Next_click",
+                    "date": "2021-03-08T10:05:23.224Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:05:51.516Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_WrongSearch",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:06:12.508Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "kjhdgkjdg",
+                    "date": "2021-03-08T10:06:21.255Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T10:06:21.264Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:06:33.393Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckPageAndFilters()",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:06:52.332Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T10:07:02.668Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T10:07:02.674Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:07:30.354Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_CheckWorkingHeaderMenu(\"LinksUserConnected\")",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:10:36.303Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePageBasketPro_click",
+                    "date": "2021-03-08T10:10:44.431Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T10:10:54.659Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_headerBloc_click",
+                    "date": "2021-03-08T10:10:54.664Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_cdavAddButton_click",
+                    "date": "2021-03-08T10:12:34.943Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:13:06.566Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_CheckWorkingHeaderMenu(\"LinksUserNotConnected\")",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:13:25.247Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePageBasketPro_click",
+                    "date": "2021-03-08T10:13:31.295Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T10:13:41.762Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_headerBloc_click",
+                    "date": "2021-03-08T10:13:41.770Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:14:36.537Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_BackOnAddPage_ProductSheet(CDSM30)",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:15:08.798Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductSheetPage_goToBasketButton_click",
+                    "date": "2021-03-08T10:16:05.161Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:16:17.513Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_AddProduct_PagesNavigating",
+            "startDate": "2021-03-10T07:40:26.566Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:15:38.829Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "mario",
+                    "date": "2021-03-08T10:16:18.269Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T10:16:18.294Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:17:26.372Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Connected_PorteAvionHeader",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:15:37.732Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_myAccountDisplay_click",
+                    "date": "2021-03-08T10:16:15.548Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_cdavAddButton_click",
+                    "date": "2021-03-08T10:16:55.267Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:17:32.084Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_AddProductToBasket_AcceptInsuranceAndWarranty",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:15:38.277Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductSheetPage_goToBasketButton_click",
+                    "date": "2021-03-08T10:16:54.671Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:17:42.401Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_FilterLR",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:19:39.749Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "TV LED",
+                    "date": "2021-03-08T10:19:56.512Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T10:19:56.518Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:21:12.541Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_LP_CheckSecondHandOffers",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:20:12.776Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "PLA5033588049876",
+                    "date": "2021-03-08T10:20:48.538Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T10:20:48.548Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:21:15.459Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_PL_Cannibalisation_Searchdexing_check",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:21:35.930Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_showcaseLinks_click",
+                    "value": "11",
+                    "date": "2021-03-08T10:21:53.861Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:22:44.547Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_PL_CheckProduct_BetweenListAndSheet",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:23:04.700Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_showcaseLinks_click",
+                    "value": "16",
+                    "date": "2021-03-08T10:23:45.770Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:25:00.651Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_PL_CheckProductBlock(\"STD\")",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:27:19.654Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_showcaseLinks_click",
+                    "value": "16",
+                    "date": "2021-03-08T10:27:30.152Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:27:44.772Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_AddProductToBasket_AcceptInsuranceAndWarranty",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:30:04.677Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductSheetPage_goToBasketButton_click",
+                    "date": "2021-03-08T10:30:53.491Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:31:12.968Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_AddProduct_PagesNavigating",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:30:29.271Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "mario",
+                    "date": "2021-03-08T10:31:09.432Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T10:31:09.440Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:32:14.854Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_AddProductToBasket_ListSearch(\"MKP\")",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:31:35.160Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "écran",
+                    "date": "2021-03-08T10:31:43.928Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T10:31:43.934Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_closeUniquementPourVous_click",
+                    "date": "2021-03-08T10:32:22.529Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_leftvendeurMkp_click",
+                    "date": "2021-03-08T10:32:29.030Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_leftvendeurMkp_change",
+                    "value": "Vendeur/[1,*}",
+                    "date": "2021-03-08T10:32:29.111Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_blockProducts_click",
+                    "date": "2021-03-08T10:32:57.133Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:33:26.797Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckAlternativeLinks",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:33:33.453Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "ipad",
+                    "date": "2021-03-08T10:33:48.296Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T10:33:48.299Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_alternativesLinksSearch_click",
+                    "value": "0",
+                    "date": "2021-03-08T10:34:32.852Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:34:41.294Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckListingSort",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:34:59.869Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T10:35:07.285Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T10:35:07.291Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:35:50.572Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckSort",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:36:09.047Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T10:36:20.814Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T10:36:20.816Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:36:31.598Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckPageAndFilters()",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:36:49.979Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T10:36:59.795Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T10:36:59.797Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:37:30.508Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_LP_CheckSecondHandOffers",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:41:04.949Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "BIG3571211442158",
+                    "date": "2021-03-08T10:41:18.663Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T10:41:18.674Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:41:35.761Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Search_CheckStructure",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:39:53.826Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "ipad",
+                    "date": "2021-03-08T10:40:32.582Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T10:40:32.585Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:41:40.717Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_ShowCase_LeftMenu",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:39:53.741Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_relativeSubLinks_click",
+                    "value": "11",
+                    "date": "2021-03-08T10:40:35.318Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:41:44.288Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_ShowCase_AllStructureShowcase",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:39:53.769Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_relativeSubLinks_click",
+                    "value": "1",
+                    "date": "2021-03-08T10:40:42.145Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:41:50.262Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_ShowCase_Header",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:43:29.249Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_relativeSubLinks_click",
+                    "value": "6",
+                    "date": "2021-03-08T10:43:45.601Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:44:00.145Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_ShippingInfo_CheckStructure(CDSP30)",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:43:26.003Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductSheetPage_shippingInfoLink_click",
+                    "date": "2021-03-08T10:44:31.551Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:44:45.872Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Showcase_CheckGeneralDisplay",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:44:20.957Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_relativeSubLinks_click",
+                    "value": "11",
+                    "date": "2021-03-08T10:44:31.210Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:45:11.956Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Sellershop_Categories",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:45:34.540Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_categories_click",
+                    "value": "0",
+                    "date": "2021-03-08T10:46:05.544Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_categories_click",
+                    "value": "0",
+                    "date": "2021-03-08T10:46:05.569Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_categories_change",
+                    "value": "categorycodepath/0E",
+                    "date": "2021-03-08T10:46:05.605Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_leftMenuDiv_click",
+                    "date": "2021-03-08T10:46:06.315Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_categories_click",
+                    "value": "0",
+                    "date": "2021-03-08T10:46:11.631Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_categories_click",
+                    "value": "0",
+                    "date": "2021-03-08T10:46:11.663Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_categories_change",
+                    "value": "categorycodepath/0E",
+                    "date": "2021-03-08T10:46:11.703Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_leftMenuDiv_click",
+                    "date": "2021-03-08T10:46:12.403Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_leftMenuDiv_click",
+                    "date": "2021-03-08T10:46:12.422Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_leftMenuDiv_change",
+                    "value": "categorycodepath/0E|0E01|0E0107",
+                    "date": "2021-03-08T10:46:12.452Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_leftMenuDiv_click",
+                    "date": "2021-03-08T10:46:13.124Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:46:19.352Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Sellershop_FiltersWithCategorySelected",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:53:14.410Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_categories_click",
+                    "value": "0",
+                    "date": "2021-03-08T10:53:50.203Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_categories_click",
+                    "value": "0",
+                    "date": "2021-03-08T10:53:50.238Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_categories_change",
+                    "value": "categorycodepath/1D",
+                    "date": "2021-03-08T10:53:50.292Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_leftMenuDiv_click",
+                    "date": "2021-03-08T10:53:51.130Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_leftMenuDiv_click",
+                    "date": "2021-03-08T10:53:51.147Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_leftMenuDiv_change",
+                    "value": "categorycodepath/1D|1D0C|1D0C02",
+                    "date": "2021-03-08T10:53:51.178Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_facetValuesList_click",
+                    "value": "11",
+                    "date": "2021-03-08T10:53:57.600Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_facetCheckboxList_click",
+                    "value": "11",
+                    "date": "2021-03-08T10:53:57.621Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_facetCheckboxList_change",
+                    "value": "Avis clients/[300,500]",
+                    "date": "2021-03-08T10:53:57.666Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:54:02.859Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_CheckWorkingHeaderMenu(\"LinksUserConnected\")",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:57:02.712Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePageBasketPro_click",
+                    "date": "2021-03-08T10:57:11.221Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T10:57:21.963Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_headerBloc_click",
+                    "date": "2021-03-08T10:57:21.973Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_cdavAddButton_click",
+                    "date": "2021-03-08T10:58:34.134Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T10:59:05.395Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_CheckWorkingHeaderMenu(\"LinksUserNotConnected\")",
+            "startDate": "2021-03-10T07:40:26.567Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T10:59:24.543Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePageBasketPro_click",
+                    "date": "2021-03-08T10:59:32.332Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "Mario",
+                    "date": "2021-03-08T10:59:49.491Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_headerBloc_click",
+                    "date": "2021-03-08T10:59:49.502Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T11:01:02.084Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_BackOnAddPage_ProductSheet(CDSM30)",
+            "startDate": "2021-03-10T07:40:26.568Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T11:02:13.199Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductSheetPage_goToBasketButton_click",
+                    "date": "2021-03-08T11:03:15.020Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T11:03:31.630Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_AddProduct_PagesNavigating",
+            "startDate": "2021-03-10T07:40:26.568Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T11:02:01.439Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "mario",
+                    "date": "2021-03-08T11:02:48.417Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T11:02:48.419Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T11:03:32.739Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_Connected_PorteAvionHeader",
+            "startDate": "2021-03-10T07:40:26.568Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T11:01:57.147Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_myAccountDisplay_click",
+                    "date": "2021-03-08T11:02:36.224Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_cdavAddButton_click",
+                    "date": "2021-03-08T11:03:06.664Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T11:03:35.317Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_AddProductToBasket_AcceptInsuranceAndWarranty",
+            "startDate": "2021-03-10T07:40:26.568Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T11:02:00.794Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductSheetPage_goToBasketButton_click",
+                    "date": "2021-03-08T11:03:33.867Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T11:03:57.232Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_SearchProduct",
+            "startDate": "2021-03-10T07:40:26.568Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T11:11:48.737Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "mario",
+                    "date": "2021-03-08T11:11:56.554Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T11:11:56.570Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T11:12:36.535Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_SearchProduct_NavigationAndPagination",
+            "startDate": "2021-03-10T07:40:26.568Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T11:12:55.435Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "mario",
+                    "date": "2021-03-08T11:13:02.491Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T11:13:02.494Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_pagination_Next_click",
+                    "date": "2021-03-08T11:13:18.312Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T11:13:33.089Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_WrongSearch",
+            "startDate": "2021-03-10T07:40:26.568Z",
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-03-08T11:14:00.128Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarInput_change",
+                    "value": "kjhdgkjdg",
+                    "date": "2021-03-08T11:14:07.100Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_searchBarButton_click",
+                    "date": "2021-03-08T11:14:07.105Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-03-08T11:14:19.712Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_FilterLP",
+            "startDate": "2021-04-21T11:45:47.913Z",
+            "explorationNumber": 13,
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-04-19T14:13:16.283Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_subShowcaseLinks_click",
+                    "value": "725",
+                    "date": "2021-04-19T14:13:50.379Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-04-19T14:14:48.756Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_FilterLP_PAP",
+            "startDate": "2021-04-21T11:45:47.914Z",
+            "explorationNumber": 17,
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-04-19T14:16:11.165Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_menuNavSubDepartments_click",
+                    "value": "0",
+                    "date": "2021-04-19T14:16:22.587Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetSeeMoreLink_click",
+                    "date": "2021-04-19T14:17:05.171Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetValuesList_click",
+                    "value": "19",
+                    "date": "2021-04-19T14:17:10.885Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetCheckboxList_click",
+                    "value": "19",
+                    "date": "2021-04-19T14:17:10.909Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetCheckboxList_change",
+                    "value": "Taille/l",
+                    "date": "2021-04-19T14:17:11.081Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-04-19T14:17:26.576Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_FilterLP",
+            "startDate": "2021-04-21T11:45:47.917Z",
+            "explorationNumber": 67,
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-04-19T15:14:06.331Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "WebShopBasePage_subShowcaseLinks_click",
+                    "value": "725",
+                    "date": "2021-04-19T15:14:47.196Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_vendeurCdsFilter_click",
+                    "date": "2021-04-19T15:15:19.003Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetCheckboxList_click",
+                    "value": "20",
+                    "date": "2021-04-19T15:15:19.058Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetCheckboxList_change",
+                    "value": "Vendeur/{*,0]",
+                    "date": "2021-04-19T15:15:19.305Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetColorValuesLabelList_click",
+                    "value": "0",
+                    "date": "2021-04-19T15:15:30.176Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetColorValuesLabelList_click",
+                    "value": "0",
+                    "date": "2021-04-19T15:15:30.210Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetColorValuesLabelList_change",
+                    "value": "Couleur/noir",
+                    "date": "2021-04-19T15:15:30.255Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetValuesList_click",
+                    "value": "12",
+                    "date": "2021-04-19T15:15:40.222Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetCheckboxList_click",
+                    "value": "12",
+                    "date": "2021-04-19T15:15:40.269Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetCheckboxList_change",
+                    "value": "Prix/200 à 500€",
+                    "date": "2021-04-19T15:15:40.345Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_activeFilter_click",
+                    "value": "1",
+                    "date": "2021-04-19T15:15:42.595Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_activeFilter_click",
+                    "value": "1",
+                    "date": "2021-04-19T15:15:42.655Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_activeFilter_change",
+                    "value": "on",
+                    "date": "2021-04-19T15:15:42.750Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_paginationNext_click",
+                    "date": "2021-04-19T15:15:46.420Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_paginationPrevious_click",
+                    "date": "2021-04-19T15:15:48.655Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-04-19T15:15:55.855Z"
+                }
+            ]
+        },
+        {
+            "testerName": "TestAifex_FilterLP_PAP",
+            "startDate": "2021-04-21T11:45:47.916Z",
+            "explorationNumber": 53,
+            "interactionList": [
+                {
+                    "concreteType": "Action",
+                    "kind": "start",
+                    "date": "2021-04-19T14:53:42.124Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_menuNavSubDepartments_click",
+                    "value": "0",
+                    "date": "2021-04-19T14:53:57.042Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetSeeMoreLink_click",
+                    "date": "2021-04-19T14:54:57.473Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetSeeMoreLink_click",
+                    "date": "2021-04-19T14:55:04.850Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetSeeMoreLink_click",
+                    "date": "2021-04-19T14:55:15.409Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetSeeMoreLink_click",
+                    "date": "2021-04-19T14:55:45.338Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetColorValuesLabelList_click",
+                    "value": "0",
+                    "date": "2021-04-19T14:56:02.882Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetColorValuesLabelList_click",
+                    "value": "0",
+                    "date": "2021-04-19T14:56:02.987Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetColorValuesLabelList_change",
+                    "value": "Couleur/noir",
+                    "date": "2021-04-19T14:56:04.265Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetSeeMoreLink_click",
+                    "date": "2021-04-19T14:56:16.194Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetValuesList_click",
+                    "value": "18",
+                    "date": "2021-04-19T14:56:22.466Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetCheckboxList_click",
+                    "value": "18",
+                    "date": "2021-04-19T14:56:22.496Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetCheckboxList_change",
+                    "value": "Taille/l",
+                    "date": "2021-04-19T14:56:22.547Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetValuesList_click",
+                    "value": "10",
+                    "date": "2021-04-19T14:56:33.383Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetCheckboxList_click",
+                    "value": "10",
+                    "date": "2021-04-19T14:56:33.423Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetCheckboxList_change",
+                    "value": "Prix/20 à 50€",
+                    "date": "2021-04-19T14:56:33.500Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetValuesList_click",
+                    "value": "6",
+                    "date": "2021-04-19T14:57:15.244Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetCheckboxList_click",
+                    "value": "6",
+                    "date": "2021-04-19T14:57:15.321Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ProductListPage_facetCheckboxList_change",
+                    "value": "Prix/50 à 100€",
+                    "date": "2021-04-19T14:57:15.451Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_activeFilter_click",
+                    "value": "3",
+                    "date": "2021-04-19T14:57:26.511Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_activeFilter_click",
+                    "value": "3",
+                    "date": "2021-04-19T14:57:26.574Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "SearchListInLinePage_activeFilter_change",
+                    "value": "on",
+                    "date": "2021-04-19T14:57:26.665Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "end",
+                    "date": "2021-04-19T14:58:10.994Z"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "match": {
+            "css": "body",
+            "event": "click"
+        },
+        "output": {
+            "prefix": "ClickOn",
+            "suffix": "cssSelector"
+        }
+    },
+    {
+        "match": {
+            "css": "body",
+            "event": "change"
+        },
+        "output": {
+            "prefix": "Change",
+            "suffix": "cssSelector"
+        }
+    }
+]

@@ -1,0 +1,9 @@
+{
+    "START_BOT_AUTO_GEN" : "https://www.aifex.fr/join?sessionId=TpTTObePQ&modelId=6DsUqIlmq",
+    "END_BOT_AUTO_GEN" : "https://www.aifex.fr/join?sessionId=N9uaHD9st&modelId=ARSlF7Pl9",
+    "START_BOT_CATCH_ALL" : "https://www.aifex.fr/join?sessionId=60hcFj3LZ&modelId=jjiSRV2P5",
+    "END_BOT_CATCH_ALL" : "https://www.aifex.fr/join?sessionId=n1pFbXx5F&modelId=kc7tCj6p6",
+    "TESTER_NAME" : "bot",
+    "NUMBER_OF_TESTS" : 30,
+    "SERVER_URL" : "https://www.aifex.fr"
+}
