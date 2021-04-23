@@ -12,7 +12,7 @@ import UserAgent from 'user-agents';
 let unzipper = require('unzipper');
 
 (async () => {
-  //await run(config.START_BOT_AUTO_GEN);
+  await run(config.START_BOT_AUTO_GEN);
   await run(config.START_BOT_CATCH_ALL);
 })();
 
