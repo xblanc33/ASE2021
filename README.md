@@ -2,16 +2,19 @@
 
 ## The Usage Profiles and the Test Profiles are in the ./expe/clean directory
 
-SEMBotBegin.json => Semantical Usage Profile (Bot)
-SYNBotBegin.json => Syntactical Usage Profile (Bot)
-SEMTest.json => Semantical Test Profile
-SYNTest.json => Syntactical Test Profile
+Profiles:
+* SEMBotBegin.json => Semantical Usage Profile (Bot)
+* SYNBotBegin.json => Syntactical Usage Profile (Bot)
+* SEMTest.json => Semantical Test Profile
+* SYNTest.json => Syntactical Test Profile
 
 
-SEM.json => AIFEX configuration for the semantical function
-SYN.json => AIFEX configuration for the syntactical function
+AIFEX Rules:
+* SEM.json => AIFEX configuration for the semantical function
+* SYN.json => AIFEX configuration for the syntactical function
 
-testSuiteClean.csv => description of the test suite
+Test Suite Description:
+* testSuiteClean.csv => description of the test suite
 
 ## the Bot
 
