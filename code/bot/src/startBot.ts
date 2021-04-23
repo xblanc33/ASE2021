@@ -10,8 +10,6 @@ import rimraf from "rimraf";
 import UserAgent from 'user-agents';
 
 let unzipper = require('unzipper');
-const userAgent = new UserAgent().toString()
-console.log(userAgent);
 
 (async () => {
   //await run(config.START_BOT_AUTO_GEN);
@@ -23,6 +21,8 @@ async function run(session: string) {
   let page;
   let aifexPage;
   for (let i = 0 ; i < config.NUMBER_OF_TESTS ; i++) {
+    const userAgent = new UserAgent().toString();
+
     console.log('run ',i);
     try {
       //if ((i % 10) === 0) {
