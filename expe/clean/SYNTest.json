@@ -1559,35 +1559,54 @@
         },
         {
             "testerName": "TestAifex_AddProduct_PagesNavigating",
-            "startDate": "2021-03-10T07:40:26.508Z",
+            "startDate": "2021-04-23T12:46:49.869Z",
+            "explorationNumber": 5,
             "interactionList": [
                 {
                     "concreteType": "Action",
                     "kind": "start",
-                    "date": "2021-03-05T15:25:30.622Z"
+                    "date": "2021-04-12T08:43:47.232Z"
                 },
                 {
                     "concreteType": "Action",
                     "kind": "ClickOn",
-                    "value": "#footer_tc_privacy_button",
-                    "date": "2021-03-05T15:26:13.070Z"
+                    "value": "#footer_tc_privacy_button_2",
+                    "date": "2021-04-12T08:43:56.354Z"
                 },
                 {
                     "concreteType": "Action",
                     "kind": "Change",
                     "value": ".hSrcInput > input",
-                    "date": "2021-03-05T15:26:23.547Z"
+                    "date": "2021-04-12T08:44:00.900Z"
                 },
                 {
                     "concreteType": "Action",
                     "kind": "ClickOn",
                     "value": "button",
-                    "date": "2021-03-05T15:26:23.556Z"
+                    "date": "2021-04-12T08:44:00.914Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ClickOn",
+                    "value": ":nth-child(2) > :nth-child(11) > :nth-child(5) > :nth-child(4) > :nth-child(1) > :nth-child(6) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(11)",
+                    "date": "2021-04-12T08:44:14.750Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ClickOn",
+                    "value": ".btBlue",
+                    "date": "2021-04-12T08:44:38.986Z"
+                },
+                {
+                    "concreteType": "Action",
+                    "kind": "ClickOn",
+                    "value": ":nth-child(2) > :nth-child(11) > :nth-child(5) > :nth-child(3) > :nth-child(1) > :nth-child(6) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2)",
+                    "date": "2021-04-12T08:44:49.355Z"
                 },
                 {
                     "concreteType": "Action",
                     "kind": "end",
-                    "date": "2021-03-05T15:27:16.058Z"
+                    "date": "2021-04-12T08:45:50.842Z"
                 }
             ]
         },

@@ -138,12 +138,12 @@ export default class UsageCoverageMatrix  {
     
     private buildCSPUsagePatterns(usagePath : UsagePath) : UsagePattern[] {
         const createdUsagePatterns : UsagePattern[] = [];
-        for (let i = 0 ; i < usagePath.path.length ; i++) {
-            for (let j = i + 1 ; j < Math.min(usagePath.path.length+1, i + 2 + this._maxN) ; j++) {
-                const patternKey = usagePath.path.slice(i,j).map((action) => action.key).join(CSP_SEPARATOR);
+        for (let patternSize = 1 ; patternSize <= this._maxN ; patternSize++) {
+            for (let index = 0 ; index + patternSize <= usagePath.path.length ; index++) {
+                const patternKey = usagePath.path.slice(index,index+patternSize).map((action) => action.key).join(CSP_SEPARATOR);
                 const foundIndex = createdUsagePatterns.findIndex((foundPattern) => foundPattern.key === patternKey);
                 if (foundIndex == -1) {
-                    createdUsagePatterns.push(new UsagePattern(patternKey, j-i));
+                    createdUsagePatterns.push(new UsagePattern(patternKey, patternSize));
                 }
             }
         }

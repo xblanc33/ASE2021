@@ -76,8 +76,9 @@ const OPTIMIZE = true;
         //SYN_DEBUT
         //FOR COUNTING SP PATTERNS
         [profile,test] = [SYN_BOT_BEGIN, SYN_TEST];
-        //const result = await runExperimentation(test, profile, 8, "CSP", true, "Debut", false);
-        const result = await runExperimentation(test, profile, 4, "IS", true, "Debut", false);
+        let result = await runExperimentation(test, profile, 8, "CSP", true, "Debut", false);
+        console.log(result);
+        result = await runExperimentation(test, profile, 6, "IS", true, "Debut", false);
         console.log(result);
 
         const date = new Date();
