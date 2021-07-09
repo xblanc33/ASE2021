@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "start": "tsc && node ./dist/code/prio/src/index.js",
+    "start": "tsc && node ./dist/index.js",
     "compile": "tsc"
   },
   "author": "",

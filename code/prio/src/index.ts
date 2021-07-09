@@ -1,5 +1,6 @@
 import { createTestSuiteFromJSONFile, createUsageProfileFromJSONFile, readTestSuiteDescriptionFromCSV } from "./Factory";
 import UsageCoverageMatrix from "./UsageCoverageMatrix";
+import UsagePattern from "./UsagePattern";
 import * as winston from "winston";
 import { exportExperimentationResultsToCSV, exportTestSuiteToCSV, exportUsageCoverageMatrixToCSV } from "./Export";
 import TestSuite from "./TestSuite";
@@ -36,18 +37,6 @@ const OPTIMIZE = true;
                 console.log(result);
             }
         }
-
-        //SEM_FIN
-        /*[profile,test] = [SEM_BOT_END,SEM_TEST];
-        for (let k of ["ID","CSP","SP","IS"]) {
-            let aKind = k as "ID" | "CSP" | "SP" | "IS";
-            for (let i = 1 ; i <= 8 ; i++) {
-                const result = await runExperimentation(test, profile, i, aKind, false, "Fin", OPTIMIZE);
-                results.push(result);
-                console.log(result);
-            }
-        }*/
-
         
 
         //SYN_DEBUT
@@ -61,21 +50,9 @@ const OPTIMIZE = true;
             }
         }
 
-
-        //SYN_FIN
-        /*[profile,test] = [SYN_BOT_END, SYN_TEST];
-        for (let k of ["ID","CSP","SP","IS"]) {
-            let aKind = k as "ID" | "CSP" | "SP" | "IS";
-            for (let i = 1 ; i <= 8 ; i++) {
-                const result = await runExperimentation(test, profile, i, aKind, true, "Fin", OPTIMIZE);
-                results.push(result);
-                console.log(result);
-            }
-        }*/
-
         //SYN_DEBUT
         //FOR COUNTING SP PATTERNS
-        [profile,test] = [SYN_BOT_BEGIN, SYN_TEST];
+        /*[profile,test] = [SYN_BOT_BEGIN, SYN_TEST];
         let result = await runExperimentation(test, profile, 8, "CSP", true, "Debut", false);
         console.log(result);
         result = await runExperimentation(test, profile, 6, "IS", true, "Debut", false);
@@ -83,7 +60,7 @@ const OPTIMIZE = true;
 
         const date = new Date();
         const dateString = `${date.getMonth()+1}_${date.getUTCDate()}_${date.getHours()}_${date.getMinutes()}`;
-        exportExperimentationResultsToCSV(results, './tmp/allResults_'+dateString+'.csv');
+        exportExperimentationResultsToCSV(results, './tmp/allResults_'+dateString+'.csv');*/
 
         /*const result1 = await runExperimentation(SEM_TEST, SEM_BOT_BEGIN, 4, "CSP", false);
         console.log(result1);
@@ -114,7 +91,7 @@ async function runExperimentation(testFile : string, usageFile : string, maxN : 
     usageCoverageMatrix.buildUsagePatterns();
 
     
-    logger.info(`there are ${usageCoverageMatrix.usagePattern.length} patterns`);
+    logger.info(`there are ${usageCoverageMatrix.usagePatterns.length} patterns`);
 
     usageCoverageMatrix.computeCoverage();
 
@@ -143,7 +120,7 @@ async function runExperimentation(testFile : string, usageFile : string, maxN : 
         numberOfUsageAction:usageCoverageMatrix.getUniqueUsageAction().length,
         numberOfTestAction:usageCoverageMatrix.getUniqueTestAction().length,
         numberOfUsageAndTestAction:usageCoverageMatrix.getUniqueActionInProfileAndTest().length,
-        numberOfUsagePattern:usageCoverageMatrix.usagePattern.length,
+        numberOfUsagePattern:usageCoverageMatrix.usagePatterns.length,
         totalFrequency:usageCoverageMatrix.getUsagePatternsFrequency(), 
         distributivity:usageCoverageMatrix.getPatternFrequencyDistributivity() 
     }
@@ -182,5 +159,33 @@ function computeNumberOfMisprioritized(testSuite : TestSuite, category : "Debut"
         }
     }
     return numberOfMisprioritized;
+}
+
+function identifyBuggyPatternsAtRandom(usagePatterns : UsagePattern[], percentageOfBuggy : number) {
+    let bucket : number[] = [];
+    let buggyPatterns : number[] = [];
+
+    for (var i=0;i<=usagePatterns.length;i++) {
+        bucket.push(i);
+    }
+
+    let numberOfBuggyPatterns;
+    if (percentageOfBuggy < 0) {
+        numberOfBuggyPatterns = 0;
+    } else if (percentageOfBuggy > 1) {
+        numberOfBuggyPatterns = usagePatterns.length;
+    } else {
+        numberOfBuggyPatterns = usagePatterns.length * percentageOfBuggy;
+    }
+
+    while (numberOfBuggyPatterns > 0) {
+        let randomIndex = Math.floor(Math.random()*bucket.length);
+        buggyPatterns.push(randomIndex);
+        bucket.splice(randomIndex, 1)[0];
+        --numberOfBuggyPatterns;
+    }
+
+    return buggyPatterns;
+
 }
 

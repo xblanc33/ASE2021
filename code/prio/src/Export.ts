@@ -7,7 +7,7 @@ import { parentPort } from "worker_threads";
 
 export function exportUsageCoverageMatrixToCSV(matrix : UsageCoverageMatrix, filename : string) {
     const fields = ['id', 'tester', 'duration', 'coverage', 'category'];
-    fields.push(...matrix.usagePattern.map((pattern)=>`${pattern.key} (${pattern.frequency}) `))
+    fields.push(...matrix.usagePatterns.map((pattern)=>`${pattern.key} (${pattern.frequency}) `))
     const opts = { fields };
 
     try {
@@ -31,7 +31,7 @@ function matrixToJSON(matrix : UsageCoverageMatrix) {
         }
         const coverageVector = matrix.getCoverageVectorForTesterName(test.testerName);
         if (coverageVector) {
-            matrix.usagePattern.map((pattern)=>`${pattern.key} (${pattern.frequency}) `).forEach((field,index)=>{
+            matrix.usagePatterns.map((pattern)=>`${pattern.key} (${pattern.frequency}) `).forEach((field,index)=>{
                 testJSON[field] = coverageVector[index]?'ok':'nok';
             })
         }

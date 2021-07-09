@@ -23,7 +23,7 @@ export default class UsageCoverageMatrix  {
     private _maxN : number;
     private _usagePatternAreCreated : boolean;
     private _testCoverageIsComputed : boolean;
-    private _usagePattern : UsagePattern[];
+    private _usagePatterns : UsagePattern[];
     private _coverageByTesterName : Map<string,boolean[]>;
     private _logger : winston.Logger;
 
@@ -35,14 +35,14 @@ export default class UsageCoverageMatrix  {
         this._maxN = maxN;
         this._usagePatternAreCreated = false;
         this._testCoverageIsComputed = false;
-        this._usagePattern = [];
+        this._usagePatterns = [];
         this._coverageByTesterName = new Map();
         this._logger = logger;
         this._optimize = optimize;
     }
 
-    get usagePattern() : UsagePattern[] {
-        return this._usagePattern;
+    get usagePatterns() : UsagePattern[] {
+        return this._usagePatterns;
     }
 
     get testSuite() : TestSuite {
@@ -102,11 +102,11 @@ export default class UsageCoverageMatrix  {
                             break;
                     }
                     createdUsagePatterns.forEach((usagePattern) => {
-                        const index = this._usagePattern.findIndex((foundPattern) => foundPattern.key === usagePattern.key);
+                        const index = this._usagePatterns.findIndex((foundPattern) => foundPattern.key === usagePattern.key);
                         if (index === -1)  {
-                            this._usagePattern.push(usagePattern);
+                            this._usagePatterns.push(usagePattern);
                         } else {
-                            this._usagePattern[index].incrementFrequency(1);
+                            this._usagePatterns[index].incrementFrequency(1);
                         }
                     })
                     this._logger.debug({
@@ -267,17 +267,17 @@ export default class UsageCoverageMatrix  {
 
     private computeCoverageForIDUsagePatterns(test : Test) {
         const testKey = test.actions.map((action) => action.key).join(ID_SEPARATOR);
-        this._coverageByTesterName.set(test.testerName, this._usagePattern.map((pattern) => testKey === pattern.key));
+        this._coverageByTesterName.set(test.testerName, this._usagePatterns.map((pattern) => testKey === pattern.key));
     } 
     
     private computeCoverageForCSPUsagePatterns(test : Test) {
         const testKey = test.actions.map((action) => action.key).join(CSP_SEPARATOR);
         this._logger.debug({testKey})
-        this._coverageByTesterName.set(test.testerName, this._usagePattern.map((pattern) => testKey.includes(pattern.key)));
+        this._coverageByTesterName.set(test.testerName, this._usagePatterns.map((pattern) => testKey.includes(pattern.key)));
     }
     
     private computeCoverageForSPUsagePatterns(test : Test) {
-        this._coverageByTesterName.set(test.testerName, this._usagePattern.map((pattern) => {
+        this._coverageByTesterName.set(test.testerName, this._usagePatterns.map((pattern) => {
             const patternKeys = pattern.key.split(SP_SEPARATOR).map(key => key.trim());
             let testKeys = test.actions.map(action => action.key);
             for (let i = 0 ; i < patternKeys.length ; i++) {
@@ -293,7 +293,7 @@ export default class UsageCoverageMatrix  {
     }
 
     private computeCoverageForISUsagePatterns(test : Test) {
-        this._coverageByTesterName.set(test.testerName, this._usagePattern.map((pattern) => {
+        this._coverageByTesterName.set(test.testerName, this._usagePatterns.map((pattern) => {
             const patternKeys = pattern.key.split(IS_SEPARATOR).map(key => key.trim());
             let testKeys = test.actions.map(action => action.key);
             for (let i = 0 ; i < patternKeys.length ; i++) {
@@ -310,9 +310,9 @@ export default class UsageCoverageMatrix  {
             const coverageVector = this._coverageByTesterName.get(testerName);
             if (coverageVector) {
                 const [occurence, totalOccurence] = coverageVector.reduce<[number,number]>((acc, curr, index) => {
-                    acc[1]+=this._usagePattern[index].frequency;
+                    acc[1]+=this._usagePatterns[index].frequency;
                     if (curr) {
-                        acc[0]+=this._usagePattern[index].frequency;
+                        acc[0]+=this._usagePatterns[index].frequency;
                     }
                     return acc;
                 }, [0,0]);
@@ -333,7 +333,7 @@ export default class UsageCoverageMatrix  {
 
     isUsagePatternCovered(usagePattern : UsagePattern) : boolean {
         if (this._testCoverageIsComputed) {
-            const index = this._usagePattern.indexOf(usagePattern);
+            const index = this._usagePatterns.indexOf(usagePattern);
             for (let i = 0 ; i < this._testSuite.tests.length ; i++) {
                 const test = this._testSuite.tests[i];
                 const testCoverage = this._coverageByTesterName.get(test.testerName);
@@ -349,7 +349,7 @@ export default class UsageCoverageMatrix  {
 
     getCoverage() : number {
         if (this._testCoverageIsComputed) {
-            const coveredFrequency = this._usagePattern.reduce<number>((acc, curr) => {
+            const coveredFrequency = this._usagePatterns.reduce<number>((acc, curr) => {
                 if (this.isUsagePatternCovered(curr)) {
                     return acc + curr.frequency;
                 } else {
@@ -364,7 +364,7 @@ export default class UsageCoverageMatrix  {
 
     getUsagePatternsFrequency() : number{
         if (this._usagePatternAreCreated) {
-            return this._usagePattern.reduce<number>((acc,curr) => {
+            return this._usagePatterns.reduce<number>((acc,curr) => {
                 return acc + curr.frequency
             }, 0);
         } else {
@@ -446,7 +446,7 @@ export default class UsageCoverageMatrix  {
     }
 
     getPatternFrequencyDistributivity() : number[][] {
-        return this._usagePattern.reduce<number[][]>((acc, curr) => {
+        return this._usagePatterns.reduce<number[][]>((acc, curr) => {
             if (acc[curr.size-1] === undefined) {
                 acc[curr.size-1] = [1, curr.frequency, curr.frequency];
             } else {
